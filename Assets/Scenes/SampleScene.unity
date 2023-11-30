@@ -145,12 +145,26 @@ MonoBehaviour:
   rotationVectorSpeed: {x: 1, y: 1}
   rotationVector: {x: 0, y: 1}
   test: {x: 0, y: 0, z: 0}
+  rotateAxis: {x: 0, y: 0}
 --- !u!4 &116960630 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7191501453914817876, guid: 5c6262a369491d847a365954e1f52b6a,
     type: 3}
   m_PrefabInstance: {fileID: 8381771586585257529}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &116960631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116960628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0947b7f7c3b21c42a865c11338a2f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mover: {fileID: 116960629}
 --- !u!1001 &208635513
 PrefabInstance:
   m_ObjectHideFlags: 0
